@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  Question
+//
+//  Created by 常彪 on 15/12/21.
+//  Copyright © 2015年 0xcb. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import <AFNetworking.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import <SafariServices/SafariServices.h>
+
+#endif //__OBJC__
+
+#endif /* PrefixHeader_pch */
